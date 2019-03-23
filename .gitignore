@@ -5,6 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
+#tablas
+03-bases-node/tablas/*.txt
+
 # Runtime data
 pids
 *.pid
