@@ -1,8 +1,5 @@
 const fs = require('fs');
 
-
-
-
 let listadoPorHacer = [];
 
 const guardarDB = () => {
@@ -20,7 +17,6 @@ const cargarDB = () => {
         listadoPorHacer = [];
     }
 
-
 }
 
 const crear = (descripcion) => {
@@ -36,7 +32,16 @@ const crear = (descripcion) => {
     return porHacer;
 }
 
-const getListado = () => {
+const getListado = (completado) => {
+    cargarDB();
+    if (completado == true) {
+        let estadoLista = listadoPorHacer.filter(tarea => tarea.completado == completado);
+        return estadoLista;
+    } else {
+        return listadoPorHacer;
+    }
+}
+const getListados = () => {
     cargarDB();
     return listadoPorHacer;
 }
@@ -54,8 +59,24 @@ const actualizar = (descripcion, completado = true) => {
     }
 }
 
+const borrar = (descripcion) => {
+    cargarDB();
+    let nuevoListado = listadoPorHacer.filter(tarea => tarea.descripcion !== descripcion);
+    if (listadoPorHacer.length == nuevoListado.length) {
+        return false;
+    } else {
+        listadoPorHacer = nuevoListado;
+        guardarDB();
+    }
+}
+const listado = (completado) => {
+
+}
+
 module.exports = {
     crear,
     getListado,
-    actualizar
+    getListados,
+    actualizar,
+    borrar
 }
