@@ -1,4 +1,4 @@
-##Curso de Udemy Node
+# Curso de Udemy Node
 
 El contenido publicado acá, hace referencia a los módulos de estudio a NodeJS
 
@@ -25,16 +25,16 @@ Contenido centrado en los fundamentos de JS, principalmente en Callbacks, Promes
 
 Poder guardar datos en archivos en .txt, con las tablas
 
-###Temas de la sección, clases 12-25
+### Temas de la sección, clases 12-25
 1. Instalación de paquetes mediante NPM
 2. Reforzamiento de ES6 y ES7:
-    _a._ Let vs Var
-    _b._ Template literales.
-    _c._ Destructuración.
-    _d._ Funiones de flecha.
-    _e._ Callbacks y callbacks en cadena.
-    _f._ Promesas y promesas en cadena.
-    _g._ Async-Await.
+    *a* Let vs Var
+    *b* Template literales.
+    *c* Destructuración.
+    *d* Funiones de flecha.
+    *e* Callbacks y callbacks en cadena.
+    *f* Promesas y promesas en cadena.
+    *g* Async-Await.
 
 
 ## Sección 4
@@ -48,8 +48,8 @@ Uso de yargs en la línea de comandos y almacenar los datos en JSON
 2. Requerir paquetes.
 3. Importar archivos personalizados.
 4. NPM.
-    _a._ Install.
-    _b._ Uninstall.
+    *a* Install.
+    *b* Uninstall.
 5. Package.json.
 6. Yargs.
 7. Recibir parámetros por línea de comando.
@@ -60,7 +60,7 @@ Uso de yargs en la línea de comandos y almacenar los datos en JSON
 Aplicación tareas por hacer
 
 
-###Temas de la sección,  Clase 39-50
+### Temas de la sección,  Clase 39-50
 
 1. Realizar validaciones con Yargs.
 2. Crear ayuda automática para nuestros comandos.
@@ -77,7 +77,7 @@ Una aplicación que consume dos apis para obtener las coordenadas de la ciudad y
 
 [City Geo location](https://rapidapi.com/dev132/api/city-geo-location-lookup) => Sitio que ofrece la localización 
 
-###Temas de la sección sección, Clase 26-38
+### Temas de la sección sección, Clase 26-38
 
 1. Consumo de APIs.
 2. Llamadas HTTP hacia servidores externos.
