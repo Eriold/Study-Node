@@ -28,19 +28,19 @@ Poder guardar datos en archivos en .txt, con las tablas
 ### Temas de la sección, clases 12-25
 1. Instalación de paquetes mediante NPM
 2. Reforzamiento de ES6 y ES7:
-    *a* Let vs Var.
+    *a.* Let vs Var.
 
-    *b* Template literales.
+    *b.* Template literales.
 
-    *c* Destructuración.
+    *c.* Destructuración.
 
-    *d* Funiones de flecha.
+    *d.* Funiones de flecha.
 
-    *e* Callbacks y callbacks en cadena.
+    *e.* Callbacks y callbacks en cadena.
 
-    *f* Promesas y promesas en cadena.
-    
-    *g* Async-Await.
+    *f.* Promesas y promesas en cadena.
+
+    *g.* Async-Await.
 
 
 ## Sección 4
@@ -54,8 +54,10 @@ Uso de yargs en la línea de comandos y almacenar los datos en JSON
 2. Requerir paquetes.
 3. Importar archivos personalizados.
 4. NPM.
-    *a* Install.
-    *b* Uninstall.
+    *a.* Install.
+
+    *b.* Uninstall.
+    
 5. Package.json.
 6. Yargs.
 7. Recibir parámetros por línea de comando.
