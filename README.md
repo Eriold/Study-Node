@@ -85,7 +85,7 @@ Una aplicación que consume dos apis para obtener las coordenadas de la ciudad y
 
 [City Geo location](https://rapidapi.com/dev132/api/city-geo-location-lookup) => Sitio que ofrece la localización 
 
-### Temas de la sección sección, Clase 26-38
+### Temas de la sección sección, Clase 51-61
 
 1. Consumo de APIs.
 2. Llamadas HTTP hacia servidores externos.
@@ -94,3 +94,24 @@ Una aplicación que consume dos apis para obtener las coordenadas de la ciudad y
 5. Uso servicios para obtener la dirección por nombre.
 6. Uso de OpenWeather para obtener el clima.
 7. Respaldos locales y remotos mediante.
+
+
+## Sección 7
+
+Una aplicación subida a Heroku de ejemplo usanod Node, Express y hbs básico
+[web Heroku](https://eriold-webpage.herokuapp.com/)
+
+### Temas de la sección 7, clases 62-73
+
+1. Uso y configuración de Express
+2. Servir contenido estático
+3. Template engines
+4. Handebars
+    *a.* Helpers
+
+    *b.* Parciales
+
+    *c.* Variables
+
+5. Despliegues en Heroku y Github
+6. Hacer carpetas públicas en la web
