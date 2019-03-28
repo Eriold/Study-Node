@@ -115,3 +115,21 @@ Una aplicación subida a Heroku de ejemplo usanod Node, Express y hbs básico
 
 5. Despliegues en Heroku y Github
 6. Hacer carpetas públicas en la web
+
+
+## Sección 8
+
+Como cómo usar básicamente MongoDB con Studio 3T y cómo desplegar una aplicación en produción y desarrollo con postman.
+
+### Temas de la sección 8, clases 74-86
+
+1. Instalación y pruebas con MongoDB.
+2. Peticiones HTTP.
+* Get.
+* Put.
+* Post.
+* Delete.
+3. Aprender sobre códigos de error HTTP.
+4. Códigos de error Express.
+5. Archivos para la configuración Global.
+6. Tips importantes en Postman.
