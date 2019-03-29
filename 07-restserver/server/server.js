@@ -1,7 +1,11 @@
-const express = require('express');
-const app = express();
-var bodyParser = require('body-parser');
 require('./config/config');
+const colors = require('colors/safe');
+const express = require('express');
+const mongoose = require('mongoose');
+
+const app = express();
+const bodyParser = require('body-parser');
+
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -9,38 +13,26 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-
-app.get('/usuario', function(req, res) {
-    res.json('get Usuario');
-});
-
-app.post('/usuario', function(req, res) {
-
-    let body = req.body;
-    if (body.nombre === undefined) {
-        res.status(400).json({
-            ok: false,
-            mensaje: 'El nombre es necesario'
-        });
-    } else {
-        res.json({
-            persona: body
-        });
-    }
+app.use(require('./routes/usuario'));
 
 
-});
+//--------------------------------------------------------------------
+//old version
+// mongoose.connect('mongodb://localhost:27017/cafe', process.env.urlDB, (err, res) => {
+//     if (err) throw err;
 
-app.put('/usuario/:id', function(req, res) {
+//     console.log(colors.blue('Base de datos online.'));
 
-    let id = req.params.id;
-    res.json({
-        id
-    });
-});
+// }, { useNewUrlParser: true });
+//--------------------------------------------------------------------
 
-app.delete('/usuario', function(req, res) {
-    res.json('delete Usuario');
+let options = { useNewUrlParser: true };
+let address = 'mongodb://localhost:27017/cafe';
+mongoose.connect(address, options, (err, res) => {
+
+    if (err) throw err;
+
+    console.log(colors.blue('Base de datos Online!'));
 });
 
 app.listen(process.env.PORT, () => {
