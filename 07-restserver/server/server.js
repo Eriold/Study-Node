@@ -26,8 +26,8 @@ app.use(require('./routes/usuario'));
 // }, { useNewUrlParser: true });
 //--------------------------------------------------------------------
 
-let options = { useNewUrlParser: true };
-let address = 'mongodb://localhost:27017/cafe';
+let options = { useNewUrlParser: true, useCreateIndex: true };
+let address = process.env.URLDB;
 mongoose.connect(address, options, (err, res) => {
 
     if (err) throw err;
