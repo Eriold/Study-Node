@@ -133,3 +133,39 @@ Como cómo usar básicamente MongoDB con Studio 3T y cómo desplegar una aplicac
 4. Códigos de error Express.
 5. Archivos para la configuración Global.
 6. Tips importantes en Postman.
+
+
+## Sección 9
+
+Heroku y publicar un web-service a la web con bd
+
+### Temas de la sección 9, clases 87-113
+
+1. Definir los alcandes de nuestro proyecto RESTServer.
+2. CRUD.
+3. Encriptación de contraseñas (bcrypty).
+4. Validaciones personlizadas.
+5. Creación de Roles.
+6. Conexión con MLAB (Atlas Mongo).
+7. Desplique de base de datos en la nube.
+8. Conexión con Robo 3T con base de datos en la nube.
+9. Configuración de variables de entorno.
+10. Borrado de archivo.
+* Elimnado físico de la base de datos.
+* Eliminación por estado en un campo de colección.
+
+
+## Sección 10
+
+Sección de seguridad con Middleware y Tokens, y cómo trabajar con una encriptación a una línea.
+
+### Temas de la sección 10, clases 114-113
+
+1. Introducción de los tokens.
+2. JWT.
+3. Login Personalizado.
+4. Protección de rutas vía token.
+5. Leer payload del token sin la firma.
+6. Tips importantes para postman.
+7. Despliegues de Heroku para pruebas de producción.
+8. Uso de Middleware.
