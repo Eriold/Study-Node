@@ -21,8 +21,6 @@ let verificaToken = (req, res, next) => {
         req.usuario = decoded.usuario;
         next();
     });
-
-
 };
 
 //=====================================
@@ -41,8 +39,6 @@ let verificaAdmin_Role = (req, res, next) => {
             }
         });
     }
-
-
 };
 
 
